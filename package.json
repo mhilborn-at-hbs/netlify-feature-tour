@@ -6,12 +6,14 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "netlifydev": "netlify dev"
   },
   "devDependencies": {
     "@astrojs/preact": "^1.0.2",
     "@astrojs/sitemap": "^1.0.0",
     "@netlify/netlify-marketing-tokens": "^1.1.0",
-    "astro": "^2.0.0"
+    "astro": "^2.0.0",
+    "netlify-cli": "^13.2.2"
   }
 }
